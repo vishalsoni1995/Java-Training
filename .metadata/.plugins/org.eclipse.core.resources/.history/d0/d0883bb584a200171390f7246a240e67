@@ -1,0 +1,12 @@
+package com.vishal.pet;
+
+public class Person  {
+ 
+	public String name;
+	
+	public void pet(Animal a)
+	{
+		System.out.println(name+" has pet"  + a.getBreed() + a.getType() );
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.vishal.pet;
+
+public class Animal {
+	
+	private String type, breed;
+
+	public Animal(String type, String breed)
+	{
+		this.type = type;
+		this.breed = breed;
+	}
+	
+	public void sound()
+	{
+		
+	}
+	
+	
+
+}

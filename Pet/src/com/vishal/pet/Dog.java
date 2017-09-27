@@ -1,0 +1,16 @@
+package com.vishal.pet;
+
+public class Dog extends Animal {
+
+	public Dog(String type, String breed) {
+		super(type, breed);
+	
+	}
+	
+	public void sound()
+	{
+		System.out.println("Dog barks!!");
+	}
+	
+	
+}

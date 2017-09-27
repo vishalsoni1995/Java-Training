@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		int arr[];
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter total no of rows: ");
+		int rows = s.nextInt();
+		for(int index=0; index<rows; index++)
+		{
+			arr[index] = index + index;
+		}
+		
+	}
+
+}

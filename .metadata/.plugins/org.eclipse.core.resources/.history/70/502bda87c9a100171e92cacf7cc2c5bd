@@ -1,0 +1,12 @@
+package com.vishal.demo;
+
+import java.awt.SystemTray;
+
+public class First {
+	
+	public void display()
+	{
+		System.out.print("asdas");
+	}
+
+}

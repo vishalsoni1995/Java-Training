@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.SystemTray"/>
+<fullyQualifiedTypeName name="com.vishal.demo.First"/>
+<fullyQualifiedTypeName name="com.vishal.first.Reverse"/>
+<fullyQualifiedTypeName name="com.vishal.second.Palindrome"/>
+<fullyQualifiedTypeName name="com.vishal.complex.Complex"/>
+<fullyQualifiedTypeName name="AddHeight.CalculateHeight"/>
+<fullyQualifiedTypeName name="CalculateHeight"/>
+<fullyQualifiedTypeName name="com.vishal.pet.Animal"/>
+<fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+<fullyQualifiedTypeName name="com.sun.prism.Image"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.IncompatibleClassChangeError"/>
+<fullyQualifiedTypeName name="java.lang.InheritableThreadLocal"/>
+<fullyQualifiedTypeName name="Inheritance"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,14 @@
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float a = 23;
+		float b = 23.2;  //by default decimal is considered as double
+		float c = 23.2f;
+		float d = (float)23.2;
+
+	}
+
+}

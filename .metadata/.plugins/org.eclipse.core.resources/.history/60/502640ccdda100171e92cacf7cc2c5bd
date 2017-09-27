@@ -1,0 +1,49 @@
+class AddHeight
+{
+
+	private int result;
+	
+	public CalculateHeight addHeight(CalculateHeight x, CalculateHeight y)
+	{
+		int feetResult = x.getFeet() + y.getFeet();
+	}
+
+}
+
+class CalculateHeight
+{
+  private int feet, inches;
+
+public int getFeet() {
+	return feet;
+}
+
+public void setFeet(int feet) {
+	this.feet = feet;
+}
+
+public int getInches() {
+	return inches;
+}
+
+public void setInches(int inches) {
+	this.inches = inches;
+}
+  
+}
+
+public class Height {
+
+	public static void main(String[] args) {
+		CalculateHeight c1 = new CalculateHeight();
+		c1.setInches(5);
+		c1.setFeet(5);
+		CalculateHeight c2 = new CalculateHeight();
+		c2.setInches(5);
+		c2.setFeet(5);
+	    
+		
+
+	}
+
+}

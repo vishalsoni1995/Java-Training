@@ -1,0 +1,10 @@
+package com.vishal.demo;
+
+public class First {
+	
+	void display()
+	{
+		System.out.print("asdas");
+	}
+
+}

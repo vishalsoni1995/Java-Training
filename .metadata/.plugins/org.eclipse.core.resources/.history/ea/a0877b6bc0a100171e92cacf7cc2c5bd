@@ -1,0 +1,44 @@
+class CheckCircular
+{
+	
+	public boolean function(int originalNumber)
+	{
+		int unitNumber = originalNumber%10;   //4
+		int remainingNumber = originalNumber/10;   //10256
+		
+		int len=0;
+		int number2 = remainingNumber;
+		while(number2 != 0)
+		{
+			number2 = number2/10;
+			len++;
+		}
+		
+	    int after = originalNumber*unitNumber; //410256
+		
+	    if(remainingNumber*Math.pow(10, len) + remainingNumber == after)
+		{
+			return true;	
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
+
+}
+
+
+public class Circular {
+
+	public static void main(String[] args) {
+		
+		CheckCircular a = new CheckCircular();
+		boolean result = a.function(102564);
+		System.out.println(result);
+		
+
+	}
+
+}

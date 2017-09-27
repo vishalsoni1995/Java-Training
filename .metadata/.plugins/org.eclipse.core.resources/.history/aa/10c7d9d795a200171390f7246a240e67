@@ -1,0 +1,32 @@
+package com.vishal.employee;
+
+import java.util.Scanner;
+
+public class MyMain {
+	
+	public static void main(String args[])
+	{
+		 Employee arr[];
+		 int employeeCount;
+		 Scanner s = new Scanner(System.in);
+		 System.out.println("Enter no of employeses");
+		 employeeCount = s.nextInt();
+		 arr = new Employee[employeeCount];
+		 for (int e=0;e<employeeCount;e++)
+		 {
+			 System.out.println("Details of " + e+1 + "employee");
+			 Employee x = new Employee();
+			 x.setName(s.next());
+			 x.setDept(s.next());
+			 arr[e] = x;
+		 }
+		 
+		 for (int e=0;e<employeeCount;e++)
+		 {
+			 System.out.println("Details of " + e+1 + "employee");
+			 System.out.println("name is" + arr[e].getName());
+			 System.out.println("dept is" + arr[e].getDept());
+		 }
+	}
+
+}

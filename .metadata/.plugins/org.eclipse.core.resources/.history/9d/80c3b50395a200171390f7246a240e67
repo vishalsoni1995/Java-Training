@@ -1,0 +1,17 @@
+package com.vishal.employee;
+
+import java.util.Scanner;
+
+public class MyMain {
+	
+	public static void main(String args[])
+	{
+		 int arr[][];
+		 int employeeCount;
+		 Scanner s = new Scanner(System.in);
+		 System.out.println("Enter no of employeses");
+		 employeeCount = s.nextInt();
+		 
+	}
+
+}

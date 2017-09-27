@@ -1,0 +1,19 @@
+package com.vishal.pet;
+
+public class Person  {
+	
+	private Animal animal;
+ 
+	public Person(Animal a) {
+		this.animal = a;
+	}
+
+
+
+	public void pet(Animal a)
+	{
+		System.out.println("Person has pet"  + a.getBreed() + a.getType() );
+		animal.sound();
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Mymain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Palindrome p = new Palindrome();
+		p.setNumber(1221);
+		boolean result = p.check();
+		if(result == true)
+				System.out.print("true");
+		else
+			System.out.print("true");
+					
+
+	}
+
+}

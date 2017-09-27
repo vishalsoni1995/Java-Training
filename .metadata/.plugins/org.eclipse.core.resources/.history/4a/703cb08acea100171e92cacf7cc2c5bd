@@ -1,0 +1,40 @@
+
+public class Reverse {
+	
+	private int number, reverse;
+	
+	public void setNumber(int n)
+	{
+		number = n;
+	}
+	
+	public void findReverse(int n)
+	{
+		setNumber(n);
+		int sum=0;
+		int rem;
+		while(number!=0)
+		{
+		rem = number%10;
+		sum = sum*10 + rem;
+    	number = number/10;	
+		}
+		
+		reverse = sum;
+	}
+	
+	public int getReverse()
+	{
+		return reverse;
+	}
+
+}
+
+public class A{
+	public static void main(String args[])
+	{
+		Reverse r = new Reverse();
+		r.setNumber(234);
+		
+	}
+}

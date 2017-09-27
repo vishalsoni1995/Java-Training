@@ -1,0 +1,14 @@
+package com.vishal.pet;
+
+public class MyMain {
+
+	public static void main(String[] args) {
+		
+		Person p = new Person();
+		Animal a = new Animal("her", "asdf");
+		
+		p.pet(a);
+	
+	}
+
+}
