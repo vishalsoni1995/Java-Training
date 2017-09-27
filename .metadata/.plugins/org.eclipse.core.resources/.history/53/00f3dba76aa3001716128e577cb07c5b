@@ -1,0 +1,11 @@
+package com.vishal;
+
+public class ThrowsAndException {
+	
+	public static void main(String args[])
+	{
+		System.out.println("I i'm going to sleep");
+		Thread.sleep(2000);
+	}
+
+}

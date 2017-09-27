@@ -1,0 +1,22 @@
+package com.vishal;
+
+public class ArrayMain {
+	
+	private int size;
+	private int numbers[];
+	
+	public int getSize() {
+		return size;
+	}
+	public void setSize(int size) {
+		this.size = size;
+	}
+	
+	public void setArray(int size)
+	{
+		numbers = new int[size];
+	}
+
+	
+
+}
